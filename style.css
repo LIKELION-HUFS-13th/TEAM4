@@ -11,7 +11,7 @@ body, button {
 /* section 3 */
 .contributors {
     background-color: white;
-    padding: 20px 0; /* 위아래 패딩 줄임 */
+    padding: 20px 0; 
     position: fixed;
     bottom: 0;
     left: 0;
@@ -23,14 +23,14 @@ body, button {
 }
 
 .contributors h2 {
-    font-size: 20px; /* 제목 크기 줄임 */
-    margin-bottom: 12px; /* 제목 여백 줄임 */
+    font-size: 20px; 
+    margin-bottom: 12px; 
 }
 
 .contributors-list {
     display: flex;
     justify-content: center;
-    gap: 30px; /* 카드 간격 줄임 */
+    gap: 30px;
 }
 
 .contributor {
@@ -41,7 +41,7 @@ body, button {
 }
 
 .contributor img {
-    width: 60px; /* 이미지 사이즈 줄임 */
+    width: 60px; 
     height: 60px;
     object-fit: cover;
     border-radius: 8px;
@@ -51,16 +51,16 @@ body, button {
 .contributor p.name {
     font-weight: bold;
     margin-bottom: 2px;
-    font-size: 13px; /* 이름 폰트 줄임 */
+    font-size: 13px; 
 }
 
 .contributor p.role {
-    font-size: 12px; /* 역할 폰트 줄임 */
+    font-size: 12px; 
     color: #666;
 }
 
-/* body 여백 조정 (선택적, 권장) */
+
 body {
-    padding-bottom: 140px; /* 섹션 높이만큼만 조정 */
+    padding-bottom: 140px; 
 }
 /* footer */
