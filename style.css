@@ -1,10 +1,71 @@
-body, button {
+body,
+button {
     font-family: 'Orbit';
 }
 
 /* header */
 
 /* section 1 */
+.top {
+    text-align: center;
+}
+
+.top .title {
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+
+.top button {
+    background: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+}
+
+.top button:hover {
+    cursor: pointer;
+}
+
+.top .flex_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top .flex_container > div {
+    border-style: none;
+}
+
+.top .flex_container .photo1 {
+    transform: rotate(-8deg);
+    background-color: rgb(219, 205, 180);
+}
+
+.top .flex_container .postit {
+    transform: rotate(8deg);
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(217, 194, 150);
+}
+
+.top .flex_container .postit .postit_text {
+    display: inline;
+    margin: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.top .flex_container .photo2 {
+    transform: rotate(8deg);
+    background-color: rgb(219, 205, 180);
+}
+
+.top .flex_container img {
+    width: 12rem;
+    height: 12rem;
+    padding: 1rem;
+    padding-bottom: 4rem;
+}
 
 /* section 2 */
 
