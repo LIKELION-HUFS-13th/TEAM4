@@ -12,12 +12,12 @@ button {
 
 .top .title {
     font-size: 3.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0em;
 }
 
 .top button {
     background: none;
-    padding: 8px 10px 8px 10px;
+    padding: 0.6em 0.75em 0.6em 0.75em;
     border-radius: 5px;
 }
 
@@ -46,6 +46,7 @@ button {
     width: 10rem;
     height: 10rem;
     background-color: rgb(217, 194, 150);
+    align-content: center;
 }
 
 .top .flex_container .postit .postit_text {
@@ -63,8 +64,8 @@ button {
 .top .flex_container img {
     width: 12rem;
     height: 12rem;
-    padding: 1rem;
-    padding-bottom: 4rem;
+    padding: 1em;
+    padding-bottom: 4em;
 }
 
 /* section 2 */
