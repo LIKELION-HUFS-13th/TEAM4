@@ -13,11 +13,6 @@ body {
     background-attachment: fixed;
   }
   
-  .site-header {
-    text-align: center;
-    padding-top: 1rem;
-  }
-  
   .nav-menu {
     display: flex;
     justify-content: flex-start;
