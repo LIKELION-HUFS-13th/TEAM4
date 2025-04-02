@@ -4,7 +4,52 @@ button {
 }
 
 /* header */
-
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+   
+  .site-header {
+    text-align: center;
+    padding-top: 1rem;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: flex-start;
+    top: 0;
+    gap: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu :hover{
+      color: blue;
+      text-decoration: underline;
+  }
+  
+  .logo {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
 /* section 1 */
 .top {
     text-align: center;
@@ -54,12 +99,15 @@ button {
     background-color: rgb(217, 194, 150);
     align-content: center;
     bottom: 2.5rem;
+    border: 3px solid rgba(0, 0, 0, 0.3); /* 테두리 추가 */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .top .flex_container .postit .postit_text {
     display: inline;
     margin: 0;
     height: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .top .flex_container .photo2 {
@@ -78,66 +126,76 @@ button {
 /* section 2 */
 .icon{
     display: flex;
-    justify-content: space-between;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
-.menu{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-.mailbox{
-    background: none;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    text-decoration: underline;
+    justify-content: center;
+    width: 80%; 
+    gap: 300px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 80%;
+    left: 50%;
   }
-  .mailbox:hover {
-    color: blue;
-    text-decoration: none;
+  
+  .menu{
+      display: flex;
+      justify-content: center;
+      width: 80%; 
+      transform: translate(-50%, -50%);
+      left: 50%;
+      position: absolute;
+      gap: 290px;
+      top: 90%;
   }
-  .clock {
-    background: none;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    text-decoration: underline;
-  }
-  .clock:hover {
-    color: blue;
-    text-decoration: none;
-  }
-  .lock {
-    background: none;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    text-decoration: underline;
-  }
-  .lock:hover {
-    color: blue;
-    text-decoration: none;
-  }
+  
+  .mailbox{
+      background: none;
+      border: none;
+      font-size: 30px;
+      cursor: pointer;
+    }
+  
+    .mailbox:hover {
+      color: blue;
+      text-decoration: underline;
+    }
+  
+    .clock {
+      background: none;
+      border: none;
+      font-size: 30px;
+      cursor: pointer;
+    }
+  
+    .clock:hover {
+      color: blue;
+      text-decoration: underline;
+    }
+  
+    .lock {
+      background: none;
+      border: none;
+      font-size: 30px;
+      cursor: pointer;
+    }
+  
+    .lock:hover {
+      color: blue;
+      text-decoration: underline;
+    }
 /* section 3 */
 .contributors {
-    background-color: white;
     padding: 20px 0; 
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position: relative;
+    bottom: 0px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+    margin-top: 400px;
 }
 
 .contributors h2 {
-    font-size: 20px; 
+    font-size: 25px; 
     margin-bottom: 12px; 
 }
 
@@ -155,8 +213,8 @@ button {
 }
 
 .contributor img {
-    width: 60px; 
-    height: 60px;
+    width: 200px; 
+    height: 200px;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 6px;
@@ -165,16 +223,25 @@ button {
 .contributor p.name {
     font-weight: bold;
     margin-bottom: 2px;
-    font-size: 13px; 
+    font-size: 20px; 
 }
 
 .contributor p.role {
-    font-size: 12px; 
+    font-size: 15px; 
     color: #666;
 }
-
-
-body {
-    padding-bottom: 140px; 
-}
 /* footer */
+.site-footer {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 1rem;
+    color: #333;
+    display: flex;
+    justify-content: center;
+  }
+  .last{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+  }
