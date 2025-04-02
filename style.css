@@ -1,4 +1,4 @@
-body,
+html,
 button {
     font-family: 'Orbit';
 }
@@ -7,7 +7,7 @@ button {
 body {
     margin: 0;
     padding: 0;
-    background-image: url('background.png'); 
+    background-image: url('assets/background.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
