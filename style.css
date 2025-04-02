@@ -17,7 +17,7 @@ button {
 
 .top button {
     background: none;
-    padding: 0.6em 0.75em 0.6em 0.75em;
+    padding: 0.4em 1.2em 0.4em 1.2em;
     border-radius: 5px;
 }
 
@@ -30,40 +30,47 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
 }
 
 .top .flex_container > div {
-    border-style: none;
+    border-style: solid;
+    border-width: 0.01rem;
+    border-color: rgb(89, 73, 46);
+    position: relative;
 }
 
 .top .flex_container .photo1 {
     transform: rotate(-8deg);
     background-color: rgb(219, 205, 180);
+    bottom: 1.5rem;
 }
 
 .top .flex_container .postit {
     transform: rotate(8deg);
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     background-color: rgb(217, 194, 150);
     align-content: center;
+    bottom: 2.5rem;
 }
 
 .top .flex_container .postit .postit_text {
     display: inline;
     margin: 0;
     height: 100%;
-    vertical-align: middle;
 }
 
 .top .flex_container .photo2 {
     transform: rotate(8deg);
     background-color: rgb(219, 205, 180);
+    right: 0.5rem;
 }
 
 .top .flex_container img {
-    width: 12rem;
-    height: 12rem;
+    width: 12.5rem;
+    height: 12.5rem;
     padding: 1em;
     padding-bottom: 4em;
 }
