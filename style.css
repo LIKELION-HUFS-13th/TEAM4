@@ -7,7 +7,52 @@ body, button {
 /* section 1 */
 
 /* section 2 */
+.icon{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+}
 
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.mailbox{
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .mailbox:hover {
+    color: blue;
+    text-decoration: none;
+  }
+  .clock {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .clock:hover {
+    color: blue;
+    text-decoration: none;
+  }
+  .lock {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .lock:hover {
+    color: blue;
+    text-decoration: none;
+  }
 /* section 3 */
 
 /* footer */
