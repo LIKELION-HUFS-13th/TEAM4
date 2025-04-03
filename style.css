@@ -1,3 +1,11 @@
+/* 주석 처리 부분: 변경 전 font-size */
+/* px인 font-size를 rem으로 변경했습니다. */
+/* rem은 브라우저 폰트 사이즈 기반이라서,
+사용자가 폰트 사이즈 조절했을 때, 
+사이트도 일관성 있게 조정됩니다 */
+
+/* 기본값 1rem = 16px 입니다. 계산 시 참고하시면 됩니다 */
+
 html,
 button {
     font-family: 'Orbit';
@@ -31,7 +39,8 @@ body {
   
   .nav-menu a {
     text-decoration: none;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+    font-size: 1.1rem;
     color: #333;
     transition: color 0.3s;
   }
@@ -60,10 +69,15 @@ body {
     margin-bottom: 0em;
 }
 
+.top .container p {
+  font-size: 1.3rem;
+}
+
 .top button {
     background: none;
     padding: 0.4em 1.2em 0.4em 1.2em;
     border-radius: 5px;
+    font-size: 1.3rem;
 }
 
 .top button:hover {
@@ -149,7 +163,8 @@ body {
   .mailbox{
       background: none;
       border: none;
-      font-size: 30px;
+      /* font-size: 30px; = 1.875rem*/
+      font-size: 1.4rem;
       cursor: pointer;
     }
   
@@ -161,7 +176,8 @@ body {
     .clock {
       background: none;
       border: none;
-      font-size: 30px;
+      /* font-size: 30px; = 1.875rem*/
+      font-size: 1.4rem;
       cursor: pointer;
     }
   
@@ -173,7 +189,8 @@ body {
     .lock {
       background: none;
       border: none;
-      font-size: 30px;
+      /* font-size: 30px; = 1.875rem*/
+      font-size: 1.4rem;
       cursor: pointer;
     }
   
@@ -195,7 +212,8 @@ body {
 }
 
 .contributors h2 {
-    font-size: 25px; 
+    /* font-size: 25px; */
+    font-size: 1.5625rem;
     margin-bottom: 12px; 
 }
 
@@ -223,11 +241,13 @@ body {
 .contributor p.name {
     font-weight: bold;
     margin-bottom: 2px;
-    font-size: 20px; 
+    /* font-size: 20px;  */
+    font-size: 1.25rem;
 }
 
 .contributor p.role {
-    font-size: 15px; 
+    /* font-size: 15px;  */
+    font-size: 0.9999rem;
     color: #666;
 }
 /* footer */
